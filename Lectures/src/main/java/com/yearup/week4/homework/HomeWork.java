@@ -2,7 +2,12 @@ package com.yearup.week4.homework;
 
 import com.yearup.week4.code.linkedlist.SinglyLinkedList;
 
+
 public class HomeWork {
+    public static void generateTable(int n){
+        for (int i = 1; i < 10; i++) {
+            System.out.println(i + " x " + n + " = " + i*n );
+    }}
 
     /**
      * takes a String input and returns a char array of reversed string
@@ -10,7 +15,14 @@ public class HomeWork {
      * @return
      */
     public static char[] reverseString(String input){
-        return null;
+
+        int c  = 0;
+        char [] out = new char[input.length()];
+        for(int i = input.length()-1;i>=0;i--) {
+            out[c++] = input.charAt(i);
+
+        }
+        return out;
     }
 
     /**
@@ -65,5 +77,9 @@ public class HomeWork {
         int size();
         void add(int element);
         int remove(int pos);
+    }
+
+    public static void main(String[] args) {
+        System.out.print(HomeWork.reverseString("YearUp"));
     }
 }
