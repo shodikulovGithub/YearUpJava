@@ -15,7 +15,7 @@ public class HomeWork {
      * @return
      */
     public static char[] reverseString(String input){
-
+//comment
         int c  = 0;
         char [] out = new char[input.length()];
         for(int i = input.length()-1;i>=0;i--) {
