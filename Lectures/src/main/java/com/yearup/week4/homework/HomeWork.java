@@ -2,7 +2,7 @@ package com.yearup.week4.homework;
 
 import com.yearup.week4.code.linkedlist.SinglyLinkedList;
 
-
+//comment
 public class HomeWork {
 //    public static void generateTable(int n) {
 //        for (int i = 1; i < 10; i++) {
